@@ -1,5 +1,5 @@
 {
-  "Version": 78,
+  "Version": 80,
   "Individuals": [
     {
       "Name": "Walker 1979 Volunteer 1",
@@ -25,7 +25,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 10",
@@ -51,7 +52,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 2",
@@ -77,7 +79,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 3",
@@ -103,7 +106,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 4",
@@ -129,7 +133,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 5",
@@ -155,7 +160,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 6",
@@ -181,7 +187,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 7",
@@ -207,7 +214,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 8",
@@ -233,7 +241,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     },
     {
       "Name": "Walker 1979 Volunteer 9",
@@ -259,7 +268,8 @@
           "Method": "InVivo",
           "Description": "Walker 1979"
         }
-      }
+      },
+      "ExpressionProfiles": []
     }
   ],
   "Populations": [
@@ -303,7 +313,8 @@
               "Method": "InVivo",
               "Description": "Walker 1979"
             }
-          }
+          },
+          "ExpressionProfiles": []
         }
       }
     }
@@ -491,17 +502,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -590,6 +591,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin_clean\nWalker 1979 Volunteer 1\n2019-05-11 11:03"
         }
       ]
@@ -630,17 +648,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -849,17 +857,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -949,6 +947,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin\nWalker 1979 Volunteer 9\n2019-06-21 16:55"
         },
         {
@@ -1012,6 +1016,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin\nWalker 1979 Volunteer 9\n2019-06-21 16:55"
         }
       ]
@@ -1049,17 +1059,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -1148,6 +1148,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin_clean\nWalker 1979 Volunteer 8\n2019-05-11 11:10"
         }
       ]
@@ -1185,17 +1202,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -1284,6 +1291,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin_clean\nWalker 1979 Volunteer 7\n2019-05-11 11:10"
         }
       ]
@@ -1324,17 +1348,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -1424,6 +1438,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin\nWalker 1979 Volunteer 6\n2021-09-17 15:20"
         },
         {
@@ -1487,6 +1507,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin\nWalker 1979 Volunteer 6\n2021-09-17 15:20"
         }
       ]
@@ -1524,17 +1550,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -1623,6 +1639,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin_clean\nWalker 1979 Volunteer 5\n2019-05-11 11:10"
         }
       ]
@@ -1660,17 +1693,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -1759,6 +1782,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin_clean\nWalker 1979 Volunteer 4\n2019-05-11 11:09"
         }
       ]
@@ -1796,17 +1836,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -1895,6 +1925,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin_clean\nWalker 1979 Volunteer 3\n2019-05-11 11:09"
         }
       ]
@@ -1932,17 +1979,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -2031,6 +2068,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin_clean\nWalker 1979 Volunteer 2\n2019-05-11 11:09"
         }
       ]
@@ -2068,17 +2122,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Amikacin|Solubility at reference pH",
-          "Value": 50.0,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Method": "InVitro",
-            "Description": "Drugbank.de"
-          }
-        },
-        {
-          "Path": "Applications|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Walker 1979 Volunteer 1|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.0,
           "Unit": "min"
         }
@@ -2167,6 +2211,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Amikacin_clean\nWalker 1979 Volunteer 10\n2019-05-11 11:02"
         }
       ]
@@ -2178,88 +2239,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5399.0
+          "Value": 5399.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Walker 1979"
+          "Value": "Walker 1979",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/762009"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/762009",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Tab.2"
+          "Value": "Tab.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Volunteer 9"
+          "Value": "Volunteer 9",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "individual"
+          "Value": "individual",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 1.0
+          "Value": 1.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Amikacin"
+          "Value": "Amikacin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "iv"
+          "Value": "iv",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "500 mg"
+          "Value": "500 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Walker 1979 - Volunteer 9 - Amikacin - iv - 500 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Amikacin|Individual"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 588.6
           },
           "Values": [
@@ -2282,14 +2359,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Walker 1979 - Volunteer 9 - Amikacin - iv - 500 mg - Plasma - indiv.|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.166666672,
@@ -2313,75 +2388,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5400.0
+          "Value": 5400.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Walker 1979"
+          "Value": "Walker 1979",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/762009"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/762009",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Tab.2"
+          "Value": "Tab.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "population"
+          "Value": "population",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Amikacin"
+          "Value": "Amikacin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "iv"
+          "Value": "iv",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "500 mg"
+          "Value": "500 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -2391,13 +2484,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Walker 1979 - population - Amikacin - iv - 500 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Amikacin|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 588.6
               },
               "Values": [
@@ -2418,13 +2509,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Walker 1979 - population - Amikacin - iv - 500 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Amikacin|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 588.6
           },
           "Values": [
@@ -2447,14 +2536,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Walker 1979 - population - Amikacin - iv - 500 mg - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.166666672,
@@ -2478,88 +2565,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5417.0
+          "Value": 5417.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Walker 1979"
+          "Value": "Walker 1979",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/762009"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/762009",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Tab.2"
+          "Value": "Tab.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Volunteer 6"
+          "Value": "Volunteer 6",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "individual"
+          "Value": "individual",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 1.0
+          "Value": 1.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Amikacin"
+          "Value": "Amikacin",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "iv"
+          "Value": "iv",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "500 mg"
+          "Value": "500 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Walker 1979 - Volunteer 6 - Amikacin - iv - 500 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Amikacin|Individual"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 588.6
           },
           "Values": [
@@ -2582,14 +2685,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Walker 1979 - Volunteer 6 - Amikacin - iv - 500 mg - Plasma - indiv.|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.166666672,
