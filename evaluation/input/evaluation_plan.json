@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Amikacin",
-            "Path": "../../Amikacin.json",
+            "Path": "../../Amikacin-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
