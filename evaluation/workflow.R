@@ -14,17 +14,17 @@
 #' @examples
 #' # Create a Qualification Report without any option and running v9.1.1 of Qualification Runner
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1")
-#' 
+#'
 #' # Create a Qualification Report and turn of the creation of a doc version
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", createWordReport = FALSE)
-#' 
+#'
 #' # Create a Qualification Report and set the number of simulations to be run per core
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", maxSimulationsPerCore = 8)
-#' 
+#'
 #' # Create a Qualification Report and update Qualification Version Information on title page
 #' versionInfo <- QualificationVersionInfo$new("1.1", "2.2","3.3")
 #' createQualificationReport("C:/Software/QualificationRunner9.1.1", versionInfo = versionInfo)
-#' 
+#'
 createQualificationReport <- function(qualificationRunnerFolder,
                                       pkSimPortableFolder = NULL,
                                       createWordReport = TRUE,
@@ -80,7 +80,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   #' If not set, report created will be named `report.md` and located in the worflow folder namely `reOutputFolder`
   reportFolder <- file.path(workingDirectory, "report")
   reportPath <- file.path(reportFolder, "report.md")
-  
+
   #----- Optional parameters for the Qualification Runner -----#
   #' If not null, `logFile` is passed internally via the `-l` option
   logFile <- NULL
@@ -115,11 +115,11 @@ createQualificationReport <- function(qualificationRunnerFolder,
 
   #-------- STEP 3: Run Qualification Workflow  --------#
   # If version info is provided update title page
-  titlePageFile <- file.path(reInputFolder, "Intro/titlepage.md") 
+  titlePageFile <- file.path(reInputFolder, "Intro/titlepage.md")
   if(!is.null(versionInfo) & file.exists(titlePageFile)){
     adjustTitlePage(titlePageFile, qualificationVersionInfo = versionInfo)
   }
-  
+
   #' Load `QualificationWorkflow` object from configuration plan
   workflow <- loadQualificationWorkflow(
     workflowFolder = reOutputFolder,
@@ -138,7 +138,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
   if(!is.null(maxSimulationsPerCore)){
     workflow$simulate$settings$maxSimulationsPerCore <- maxSimulationsPerCore
   }
-  
+
   #' Activate/Deactivate tasks of qualification workflow prior running
   # workflow$inactivateTasks("simulate")
   # workflow$inactivateTasks("calculatePKParameters")
@@ -147,9 +147,9 @@ createQualificationReport <- function(qualificationRunnerFolder,
   # workflow$inactivateTasks("plotGOFMerged")
   # workflow$inactivateTasks("plotPKRatio")
   # workflow$inactivateTasks("plotDDIRatio")
-  
+
   workflow$plotPKRatio$settings$units$C_max <- "ng/mL"
-  
+
   #' Run the `QualificatitonWorklfow`
   workflow$runWorkflow()
 
