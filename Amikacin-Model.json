@@ -656,6 +656,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Walker 1979 POP|Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Walker 1979 - population - Amikacin - iv - 500 mg - Plasma - agg. (n=10)"
+        }
+      ],
       "Population": "Walker 1979 pop",
       "Compounds": [
         {
@@ -864,6 +871,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Walker 1979 Volunteer 9|Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Walker 1979 - Volunteer 9 - Amikacin - iv - 500 mg - Plasma - indiv."
+        }
       ],
       "Individual": "Walker 1979 Volunteer 9",
       "Compounds": [
@@ -1355,6 +1369,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Walker 1979 Volunteer 6|Organism|PeripheralVenousBlood|Amikacin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Walker 1979 - Volunteer 6 - Amikacin - iv - 500 mg - Plasma - indiv."
+        }
       ],
       "Individual": "Walker 1979 Volunteer 6",
       "Compounds": [
